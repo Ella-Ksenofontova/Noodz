@@ -1,0 +1,26 @@
+@import url("./__picture/section-about__picture.css");
+@import url("./__message/section-about__message.css");
+@import url("./__additional-text/section-about__additional-text.css");
+@import url("./__cta/section-about__cta.css");
+
+.section-about {
+  padding-top: 405px;
+  padding-bottom: 120px;
+  padding-inline: 40px;
+  background-color: #F6A0A9;
+  color: #4F2479;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-about {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-about {
+    padding-inline: 10px;
+  }
+}

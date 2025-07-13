@@ -1,0 +1,4 @@
+.accordion__question {
+  font-size: max(16px, calc(48 * (100vw / 1440)));
+  font-weight: bold;
+}

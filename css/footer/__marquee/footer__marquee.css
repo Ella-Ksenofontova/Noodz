@@ -1,0 +1,11 @@
+.footer__marquee {
+  grid-column: 2;
+  justify-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__marquee {
+    grid-column: 1;
+    justify-self: start;
+  }
+}

@@ -1,0 +1,8 @@
+.section-intro__wrapper {
+  position: relative;
+  width: calc(67vw * 1.1);
+  height: calc(67vw * (510.4 / 986.76) * (473 / 613));
+  margin-inline: auto;
+  padding-top: calc(67vw * (510.4 / 986.76) * (140 / 613));
+  box-sizing: content-box;
+}

@@ -1,0 +1,22 @@
+@import url("./header/header.css");
+@import url("./marquee/marquee.css");
+@import url("./section-intro/section-intro.css");
+@import url("./section-about/section-about.css");
+@import url("./video-preview/video-preview.css");
+@import url("./video-preview/video-preview.css");
+@import url("./section-faq/section-faq.css");
+@import url("./accordion/accordion.css");
+@import url("./intersection-divider/intersection-divider.css");
+@import url("./section-outro/section-outro.css");
+@import url("./footer/footer.css");
+@import url("./video-player/video-player.css");
+
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}

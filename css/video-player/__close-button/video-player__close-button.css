@@ -1,0 +1,16 @@
+.video-player__close-button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  padding: 12.5px;
+  background: #4F2479;
+  border-radius: 50%;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .video-player__close-button {
+    position: static;
+  }  
+}

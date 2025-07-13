@@ -1,0 +1,9 @@
+@import url("./_number/section-intro__pill_number-1.css");
+@import url("./_number/section-intro__pill_number-2.css");
+@import url("./_number/section-intro__pill_number-3.css");
+
+.section-intro__pill {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+}

@@ -1,0 +1,14 @@
+@import url("./__title/section-intro__title.css");
+@import url("./__wrapper/section-intro__wrapper.css");
+@import url("./__decor/section-intro__decor.css");
+@import url("./__pill/section-intro__pill.css");
+@import url("./__picture/section-intro__picture.css");
+@import url("./__additional-text/section-intro__additional-text.css");
+
+.section-intro {
+  padding-bottom: calc(70 * (100vw / 1440));
+  padding-top: 30px;
+  padding-inline: 10px;
+  color: #E1FD2C;
+  background-color: #16774A;
+}

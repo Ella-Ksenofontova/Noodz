@@ -1,0 +1,21 @@
+.footer__menu {
+  grid-column: span 2;
+  justify-self: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 79.4%;
+  margin: 0;
+  margin-right: 20.6%;
+  padding: 0;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__menu {
+    grid-column: 1;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}

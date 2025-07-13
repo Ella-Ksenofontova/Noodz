@@ -1,0 +1,16 @@
+.header__wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: max(16.25vw, 230px) 1fr;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 45px;
+}
+
+@media screen and (max-width: 576px) {
+  .header__wrapper {
+    padding: 5px;
+    padding-inline: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.intersection-divider {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(45%);
+  background-image: url("../../assets/get-inspired.png");
+  width: 100%;
+  height: calc(100vw * (480 / 1440));
+  background-size: cover;
+  background-repeat: no-repeat;
+}

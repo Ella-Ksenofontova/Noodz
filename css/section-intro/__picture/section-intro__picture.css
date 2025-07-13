@@ -1,0 +1,14 @@
+.section-intro__picture {
+  position: absolute;
+  right: -20px;
+  top: 58%;
+  transform: translateX(40%);
+  width: calc(100vw * (511 / 1440));
+  height: calc(100vw * (511 / 1440) * (581 / 511));
+}
+
+@media screen and (max-width: 1200px) {
+  .section-intro__picture {
+    display: none;
+  }
+}

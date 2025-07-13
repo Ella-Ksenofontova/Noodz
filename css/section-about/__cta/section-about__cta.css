@@ -1,0 +1,24 @@
+.section-about__cta {
+  margin-block: 90px 140px;
+  margin-left: 58%;
+  width: 17%;
+  min-width: fit-content;
+  background-color: #E1FD2C;
+  color: #4F2479;
+  border: 2px solid #4F2479;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 20px;
+}
+
+.section-about__cta:hover {
+  background-color: #cfec0f;
+}
+
+@media screen and (max-width: 750px) {
+  .section-about__cta {
+    margin-block: 70px;
+    margin-left: 0;
+  }
+}

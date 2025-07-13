@@ -1,0 +1,10 @@
+.section-about__picture {
+  width: 62%;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .section-about__picture {
+    width: 100%;
+  }
+}

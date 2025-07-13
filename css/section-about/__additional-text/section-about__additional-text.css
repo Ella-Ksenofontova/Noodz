@@ -1,0 +1,16 @@
+.section-about__additional-text {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  width: 42%;
+  margin-left: 58%;
+  font-size: max(14px, calc(20 * (100vw / 1440)));
+}
+
+@media screen and (max-width: 750px) {
+  .section-about__additional-text {
+    gap: 50px;
+    margin-left: 0;
+    width: 100%;
+  }
+}

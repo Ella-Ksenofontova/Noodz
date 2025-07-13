@@ -1,0 +1,12 @@
+.section-about__message {
+  margin-block: 110px 160px;
+  width: 58%;
+  font-size: max(16px, calc(40 * (100vw / 1440)));
+}
+
+@media screen and (max-width: 750px) {
+  .section-about__message {
+    margin-block: 30px 10px;
+    width: 100%;
+  }
+}

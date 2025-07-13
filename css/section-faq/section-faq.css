@@ -1,0 +1,11 @@
+@import url("./__title/section-faq__title.css");
+@import url("./__divider/section-faq__divider.css");
+@import url("./__accordion/section-faq__accordion.css");
+
+.section-faq {
+  position: relative;
+  padding-top: 82.5px;
+  background-color: #E1FD2C;
+  color: #4F2479;
+  padding-bottom: 235px;
+}

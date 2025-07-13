@@ -1,0 +1,15 @@
+.video-preview__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 22.2vw;
+  height: 22.2vw;
+  background-color: transparent;
+  border: none;
+}
+
+.video-preview__button * {
+  max-width: 100%;
+  max-height: 100%;
+}

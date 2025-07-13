@@ -1,0 +1,25 @@
+@import url("./__title/footer__title.css");
+@import url("./__logo/footer__logo.css");
+@import url("./__marquee/footer__marquee.css");
+@import url("./__menu/footer__menu.css");
+@import url("./__menu-item/footer__menu-item.css");
+@import url("./link/footer__link.css");
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding-block: 120px;
+  padding-inline: 13%;
+  background-color: #4F2479;
+  color: #E1FD2C;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: 100%;
+    justify-content: start;
+    justify-items: start;
+  }
+}

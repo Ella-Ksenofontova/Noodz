@@ -1,0 +1,20 @@
+@import url("./__text-content/marquee__text-content.css");
+
+.marquee {
+  width: 320px;
+  max-width: calc(100vw - 100vw * (0.1625));
+  padding: 13.5px 37.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  background-color: #E1FD2C;
+  color: #16774A;
+}
+
+@media screen and (max-width: 576px) {
+  .marquee {
+    display: none;
+  }
+}

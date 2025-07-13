@@ -1,0 +1,23 @@
+@import url("./__close-button/video-player__close-button.css");
+@import url("./__wrapper/video-player__wrapper.css");
+
+.video-player {
+  width: 100vw;
+  height: 100vh;
+  max-height: unset;
+  border: none;
+  background: none;
+}
+
+.video-player[open] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.video-player::backdrop {
+  background-color: black;
+  opacity: 0.8;
+}

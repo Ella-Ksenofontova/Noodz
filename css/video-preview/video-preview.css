@@ -1,0 +1,7 @@
+@import url("./__image/video-preview__image.css");
+@import url("./__button/video-preview__button.css");
+
+.video-preview {
+  position: relative;
+  width: 100%; 
+}

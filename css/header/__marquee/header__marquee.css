@@ -1,0 +1,4 @@
+.header__marquee {
+  grid-column: 2;
+  justify-self: end;
+}

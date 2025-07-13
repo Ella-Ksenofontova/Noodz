@@ -1,0 +1,15 @@
+.section-intro__additional-text {
+  margin-inline: auto;
+  margin-top: 55px;
+  width: calc(100vw * (320 / 1440));
+  padding-inline: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: max(16px, calc(24 / (100vw / 1440)));
+}
+
+@media screen and (max-width: 1200px) {
+  .section-intro__additional-text {
+    width: auto;
+  }
+}

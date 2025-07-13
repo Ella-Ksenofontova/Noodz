@@ -1,0 +1,20 @@
+.section-outro__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-inline: auto;
+  width: 39%;
+  min-width: fit-content;
+  padding-bottom: 10px;
+  background: transparent;
+  color: inherit;
+  border: none;
+  border-bottom: 2px solid #16774A;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.section-outro__cta * {
+  margin: 0;
+}

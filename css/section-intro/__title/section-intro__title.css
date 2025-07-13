@@ -1,0 +1,14 @@
+.section-intro__title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+  margin-block: 0;
+  font-size: calc(105 * (100vw / 1440));
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(22, 119, 74, 0.5);
+  border: 1px solid #E1FD2C;
+  border-radius: 30px;
+}

@@ -1,0 +1,9 @@
+.section-outro__title {
+  width: 38%;
+  margin-inline: auto;
+  margin-bottom: 25px;
+  font-size: calc(97 * (100vw / 1440));
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}

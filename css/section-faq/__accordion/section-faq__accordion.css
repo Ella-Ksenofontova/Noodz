@@ -1,0 +1,12 @@
+.section-faq__accordion {
+  padding-block: 65px;
+  padding-inline: 100px;
+  border-bottom: 1px solid #4F2479;
+}
+
+@media screen and (max-width: 576px) {
+  .section-faq__accordion {
+    padding-inline: 30px;
+    gap: 10px;
+  }
+}

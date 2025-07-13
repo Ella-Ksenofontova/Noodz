@@ -1,0 +1,6 @@
+.section-faq__title {
+  margin-block: 15px;
+  font-weight: 300;
+  font-size: max(128px, calc(159 * (100vw / 1440)));
+  text-align: center;
+}

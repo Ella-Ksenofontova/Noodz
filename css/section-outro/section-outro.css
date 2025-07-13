@@ -1,0 +1,10 @@
+@import url("./__decor/section-outro__decor.css");
+@import url("./__cards/section-outro__cards.css");
+@import url("./__title/section-outro__title.css");
+@import url("./__cta//section-outro__cta.css");
+
+.section-outro {
+  padding-bottom: 120px;
+  background-color: #BBD4D0;
+  color: #16774A;
+}

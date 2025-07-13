@@ -1,0 +1,10 @@
+@import url("./__question/accordion__question.css");
+@import url("./__expand-button/accordion__expand-button.css");
+@import url("./__answer/accordion__answer.css");
+
+.accordion {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.video-player__wrapper {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.video-player__wrapper * {
+  max-width: 100%;
+}

@@ -1,0 +1,9 @@
+.section-outro__decor {
+  position: relative;
+  padding-top: 18%;
+  width: 100%;
+  height: calc(100vw * ((1454 - 1909 * 0.18) / 1440));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/outro-bg.png");
+}

@@ -1,0 +1,16 @@
+.header__logo {
+  position: absolute;
+  bottom: -7px;
+  left: 45px;
+  width: 16.25vw;
+  min-width: 230px;
+  height: calc(46 / 234 * max(230px, 16.25vw));
+}
+
+@media screen and (max-width: 576px) {
+  .header__logo {
+    position: static;
+    margin-inline: calc((100vw - max(230px, 16.25vw)) / 2);
+    left: 0;
+  }  
+}

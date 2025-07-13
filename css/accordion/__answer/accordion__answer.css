@@ -1,0 +1,7 @@
+.accordion__answer {
+  grid-column: span 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s;
+  font-size: 1rem;
+}

@@ -1,0 +1,20 @@
+.section-intro__decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc((67vw * 1.1 - 85px) * (627 / 935));
+  width: calc(67vw * 1.1 - 85px);
+  margin-inline: auto;
+  background-image: url("../../../assets/oval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 576px) {
+  .section-intro__decor {
+    left: 50%;
+    transform: translateX(-50%);
+    height: calc((67vw * 1.1 - 20px) * (627 / 935));
+    width: calc(67vw * 1.1 - 20px);
+  }
+}
