@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelectorAll(".marquee__text-content");for(let e of t)setInterval(()=>{let t=e.textContent;const n=t[0];t="*"===n&&"*"===t[t.length-1]?t.substring(1):t.substring(1)+n,e.getBoundingClientRect().top>0&&e.getBoundingClientRect().bottom<innerHeight&&(e.textContent=t)},50)});
