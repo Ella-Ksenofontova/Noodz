@@ -13,6 +13,7 @@
   border-bottom: 2px solid #16774A;
   font-family: inherit;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .section-outro__cta * {

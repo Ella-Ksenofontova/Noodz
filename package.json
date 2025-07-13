@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "resolve-url-loader": "^5.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^5.2.2"
+  }
+}
