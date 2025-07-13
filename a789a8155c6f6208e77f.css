@@ -1,6 +1,0 @@
-Module build failed (from ./node_modules/resolve-url-loader/index.js):
-Error: resolve-url-loader: error processing CSS
-  a valid source-map is not present (ensure preceding loaders output a source-map)
-  at file://D:\Сайты\Noodz\css\style.css:16:3
-    at encodeError (D:\Сайты\Noodz\node_modules\resolve-url-loader\index.js:274:12)
-    at onFailure (D:\Сайты\Noodz\node_modules\resolve-url-loader\index.js:215:14)
